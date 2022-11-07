@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gabrielfnasc/languageTools-API/issues"
   },
-  "homepage": "https://github.com/gabrielfnasc/languageTools-API#readme"
+  "homepage": "https://github.com/gabrielfnasc/languageTools-API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
