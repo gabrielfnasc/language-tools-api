@@ -1,0 +1,25 @@
+{
+  "name": "languagetools-api",
+  "version": "1.0.0",
+  "description": "a little help to language learners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielfnasc/languageTools-API.git"
+  },
+  "keywords": [
+    "API",
+    "NODEJS",
+    "TYPESCRIPT",
+    "CLEAN ARCHITETURE"
+  ],
+  "author": "Gabriel Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielfnasc/languageTools-API/issues"
+  },
+  "homepage": "https://github.com/gabrielfnasc/languageTools-API#readme"
+}
