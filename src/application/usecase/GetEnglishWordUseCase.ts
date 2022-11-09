@@ -7,7 +7,6 @@ export type OutputGetEnglishWordDto = {
 export class GetEnglishRandomWordUseCase
   implements Usecase<void, OutputGetEnglishWordDto>
 {
-  async execute(): Promise<OutputGetEnglishWordDto> {
-    throw new Error("Method not implemented.");
-  }
+  constructor() {}
+  async execute(): Promise<OutputGetEnglishWordDto> {}
 }
