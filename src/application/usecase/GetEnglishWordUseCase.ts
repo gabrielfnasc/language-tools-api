@@ -1,3 +1,4 @@
+import { RandomWord } from "../random-words/RandomWord";
 import { Usecase } from "./UseCase";
 
 export type OutputGetEnglishWordDto = {
@@ -7,6 +8,10 @@ export type OutputGetEnglishWordDto = {
 export class GetEnglishRandomWordUseCase
   implements Usecase<void, OutputGetEnglishWordDto>
 {
-  constructor() {}
-  async execute(): Promise<OutputGetEnglishWordDto> {}
+  constructor(private readonly randomWord: RandomWord) {}
+  async execute(): Promise<OutputGetEnglishWordDto> {
+    const word = await this.randomWord.generate();
+
+    return { word };
+  }
 }
