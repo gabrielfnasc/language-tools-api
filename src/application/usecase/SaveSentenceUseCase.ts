@@ -1,7 +1,8 @@
+import { Sentence } from "../../domain/entities/Sentence";
 import { Usecase } from "./UseCase";
 
 export type InputSaveSentenceDto = {
-  sentence: string;
+  sentence: Sentence;
 };
 
 export class SaveSentenceUseCase
