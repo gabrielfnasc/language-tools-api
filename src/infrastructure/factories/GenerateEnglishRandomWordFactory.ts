@@ -1,7 +1,7 @@
 import { GenerateEnglishRandomWordUseCase } from "../../application/usecase/GenerateEnglishWordUseCase";
 import { Rword } from "../adapters/RwordAdapter";
 import { BaseController } from "../controllers/BaseController";
-import { GenerateEnglishRandomWordController } from "../controllers/GenerateEnglishRandomWordController";
+import { GenerateEnglishRandomWordController } from "../controllers/english/GenerateEnglishRandomWordController";
 
 export class GenerateEnglishRandomWordFactory {
   static build(): BaseController {
