@@ -1,9 +1,11 @@
 import { Router, Express } from "express";
-import random from "../routes/EnglishRoute";
+import EnglishRoute from "../routes/EnglishRoute";
+import SentenceRoute from "../routes/SentenceRoute";
 
 export default (app: Express): void => {
   const router = Router();
   app.use("/language", router);
 
-  random(router);
+  EnglishRoute(router);
+  SentenceRoute(router);
 };
