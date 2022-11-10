@@ -1,5 +1,5 @@
-import { RandomWord } from "../random-words/RandomWord";
-import { Usecase } from "./UseCase";
+import { RandomWord } from "../../random-words/RandomWord";
+import { Usecase } from "../UseCase";
 
 export type OutputGenerateEnglishWordDto = {
   word: string;

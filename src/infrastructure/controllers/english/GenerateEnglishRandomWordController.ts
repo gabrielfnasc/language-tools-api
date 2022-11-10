@@ -1,4 +1,4 @@
-import { GenerateEnglishRandomWordUseCase } from "../../../application/usecase/GenerateEnglishWordUseCase";
+import { GenerateEnglishRandomWordUseCase } from "../../../application/usecase/english/GenerateEnglishWordUseCase";
 import { HttpResponse } from "../../http/presentation/controllers/helpers/Http";
 import {
   ok,

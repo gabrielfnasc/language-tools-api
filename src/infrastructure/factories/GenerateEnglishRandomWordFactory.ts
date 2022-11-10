@@ -1,4 +1,4 @@
-import { GenerateEnglishRandomWordUseCase } from "../../application/usecase/GenerateEnglishWordUseCase";
+import { GenerateEnglishRandomWordUseCase } from "../../application/usecase/english/GenerateEnglishWordUseCase";
 import { Rword } from "../adapters/RwordAdapter";
 import { BaseController } from "../controllers/BaseController";
 import { GenerateEnglishRandomWordController } from "../controllers/english/GenerateEnglishRandomWordController";
