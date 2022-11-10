@@ -10,6 +10,6 @@ export class SentenceRepositoryMongoDb
     return "sentences";
   }
   async save(data: InputSaveSentenceDto): Promise<void> {
-    await this.getCollection.insertOne({ data });
+    await this.getCollection.insertOne(data);
   }
 }
