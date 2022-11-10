@@ -5,6 +5,7 @@ import { BaseController } from "./BaseController";
 
 export type SaveSentenceControllerRequestDto = {
   sentence: string;
+  translation: string;
 };
 
 export class SaveSentenceController implements BaseController {
