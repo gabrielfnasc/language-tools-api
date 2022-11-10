@@ -1,5 +1,5 @@
 export interface Sentence {
-  sentence: string;
+  content: string;
   translation: string;
   createdAt: Date;
 }
