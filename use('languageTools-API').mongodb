@@ -1,0 +1,4 @@
+use('languageTools-API')
+
+
+db.sentences.insertOne({gabriel : 'gabriel'})
