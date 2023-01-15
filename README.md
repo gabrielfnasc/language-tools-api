@@ -56,7 +56,7 @@
 
 
 
-I´ve built this simple project to help myself to expand my english vocabulary.
+I built this simple project to help me expand my English vocabulary.
 
 Here's why:
 * A project that helps english learners.
