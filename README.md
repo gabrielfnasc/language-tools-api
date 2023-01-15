@@ -95,7 +95,7 @@ Start doing these steps :
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/gabrielfnasc/api-counselor.git
+   git clone https://github.com/gabrielfnasc/language-tools-api.git
    ```
 2. Install NPM packages
    ```sh
